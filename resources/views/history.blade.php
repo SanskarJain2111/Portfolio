@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>About us</h1>
-    <div> {{$name}} </div>
-    <a href='/'>Home</a>
+
 </body>
 </html>
