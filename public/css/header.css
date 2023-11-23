@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
   }
 
   nav{
@@ -11,20 +14,33 @@
     padding: 20px 8%;
     display: flex;
     align-items: right;
+    flex-wrap: wrap;
+    padding: 5px 0;
     justify-content: space-between;
     justify-content: right;
   }
 
+  nav ul
+  {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+  }
+
   nav ul li{
-    list-style: none;
+    /* list-style: none; */
     display: inline-block;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    list-style-type: none;
+    margin: 10px 30px;
   }
 
   nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 1.2rem;
+    position: relative;
+    font-weight: 500;
   }
 
   nav ul li a::after
@@ -36,11 +52,18 @@
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    background: black;
+    background: rgb(90, 9, 9);
     transition: width 0.3s;
   }
 
   nav ul li a:hover::after
   {
     width: 50%;
+  }
+
+  #menu-icon{
+    font-size: 3.6rem;
+    color: var(--black-color);
+    cursor: pointer;
+    display: none;
   }

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="hero">
@@ -18,7 +19,9 @@
         <div class="content">
             <h3>Let's know about</h3>
             <br>
-            <h1>The Missile Man of India</h1>
+            <div class="animate-text">
+                <h1>The Missile Man of India</h1>
+            </div>
         </div>
     </div>
 

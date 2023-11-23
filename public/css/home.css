@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
   }
 
   .hero{
@@ -16,14 +19,14 @@
     justify-content: center;
   }
 
-.content{
+  .content{
     text-align: center;
   }
   .content h1{
     text-align: center;
     font-size: 90px;
     color: rgb(66, 38, 2);
-    font-weight: 600;
+    font-weight: 700;
     transition: 0.5s;
   }
   .content h1:hover{
@@ -35,6 +38,16 @@
     font-size: 50px;
     color: black;
     font-weight: 600;
+  }
+
+  .content .text-animate{
+    position: relative;
+    width: 32.8rem;
+  }
+
+  .content .text-animate h1{
+    color: transparent;
+
   }
 
   .back-video{

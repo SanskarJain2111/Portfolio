@@ -1,4 +1,5 @@
 <header>
+    <div class="bx bx-menu" id="menu-icon"></div>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
@@ -9,5 +10,6 @@
         </ul>
     </nav>
     <link rel="stylesheet" href="css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </header>
 
